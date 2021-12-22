@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+button {
+    border-radius: 5px;
+    border: 2px solid aqua;
+    background-color: aqua;
+    font-size: 14px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+#lista {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.tarefaItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+:checked + label {
+    text-decoration: line-through;
+    color: grey;
+}
